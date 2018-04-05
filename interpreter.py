@@ -1,6 +1,6 @@
 from __future__ import print_function
 from collections import defaultdict
-from .syntax_check import syntax_check
+from syntax_check import syntax_check
 import sys
 
 
