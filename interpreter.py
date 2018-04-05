@@ -140,7 +140,7 @@ class Interpreter(object):
 
     def cli(self):
         def help():
-            print("=======Brain Fuck CLI=======")
+            print("=======Brainfuck CLI=======")
             print("Type \"mem\" to see memory contents.")
             print("Type \"dp\" to see data pointer value.")
             print("Type \"reset\" to reset interpreter state.")
