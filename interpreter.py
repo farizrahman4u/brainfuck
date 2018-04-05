@@ -32,7 +32,7 @@ class Interpreter(object):
         for k in keys:
            del self.memory[k]
 
-    def execute(self, code, input=None):
+    def execute(self, code):
         memory = self.memory
         stack = []
         inp = self.input_func
