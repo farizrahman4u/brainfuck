@@ -166,6 +166,6 @@ class Interpreter(object):
                     help()
                 else:
                     self.execute(input)
-            except Exception, e:
+            except Exception as e:
                 print(e)
 
