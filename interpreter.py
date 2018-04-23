@@ -3,7 +3,7 @@ from collections import defaultdict
 import sys
 
 
-if sys.version[0] == 3:
+if sys.version[0] == '3':
     def raw_input(x):
         return str(input(x))
 
